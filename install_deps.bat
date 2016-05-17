@@ -1,10 +1,3 @@
 echo %1
-%1easy_install.exe argparse
-%1easy_install.exe commando
-%1easy_install.exe jinja2
+%1easy_install.exe pelican
 %1easy_install.exe markdown
-%1easy_install.exe pyyaml
-%1easy_install.exe pygments
-%1easy_install.exe smartypants
-%1easy_install.exe git://github.com/hyde/typogrify#egg=typogrify
-%1easy_install.exe hyde

@@ -1,0 +1,13 @@
+body {
+	width: 80%;
+	color: black;
+}
+
+dt {
+	font-weight: bold;
+	display: inline;
+}
+
+dl {
+	padding: 0;
+}
