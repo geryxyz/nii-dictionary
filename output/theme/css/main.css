@@ -1,13 +1,63 @@
 body {
+	margin-left: 10%;
+	margin-right: 10%;
+	font-size: 14pt;
+}
+
+#content {
 	width: 80%;
 	color: black;
+	margin: auto;
 }
 
-dt {
-	font-weight: bold;
-	display: inline;
+#banner {
+	margin: auto;
+	width: 80%;
 }
 
-dl {
+#foot {
+	position: absolute;
+	bottom: 10px;
+}
+
+a:visited {
+	background: #ccc;
+	color: white;
+}
+
+a:active {
+	background: #ccc;
+	color: white;
+}
+
+a {
+	background: #ccc;
+	color: white;
+	font-family: sans-serif;
+	text-decoration: none;
+	padding: 2px;
+	transition: background 1s, color 1s;
+}
+
+a:hover {
+	background: black;
+	color: white;
+}
+
+.entry {
+	display: inline-block;
 	padding: 0;
+}
+
+.entry .key {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.entry .body {
+	font-family: serif;
+}
+
+.entry .body p {
+	display: inline;
 }
