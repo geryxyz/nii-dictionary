@@ -47,6 +47,7 @@ a:hover {
 .entry {
 	display: inline-block;
 	padding: 0;
+	padding-bottom: 1ex;
 }
 
 .entry .key {

@@ -1,4 +1,5 @@
 title: ta kah
+lang: hu
 date: 2016-12-05
 ipa: ˈt̪ə̰ kɐ̤
 gloss: személy

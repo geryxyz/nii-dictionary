@@ -1,15 +1,15 @@
 {% extends "base.html" %}
 
 {% block content %}
+{% for article in articles_page.object_list | sort(attribute='title') %}
 <div class="entry">
-{% for article in articles_page.object_list %}
     <span class="key">{{ article.title }}</span>
     <span class="pronounce">[{{ article.ipa }}]</span>
     <span class="gloss">'{{ article.gloss }}'</span>
     <span class="body">{{ article.content }}</span>
     <span style="font-weight: bold; font-style: italic; font-family: serif;">Etimológia: </span><span class="etymology">{{ article.etymology }}</span>
-{% endfor %}
 </div>
+{% endfor %}
 {% if articles_page.has_other_pages() %}
     {% include 'pagination.html' %}
 {% endif %}
