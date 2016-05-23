@@ -8,16 +8,12 @@ body {
 	width: 80%;
 	color: black;
 	margin: auto;
+	text-align: justify;
 }
 
 #banner {
 	margin: auto;
 	width: 80%;
-}
-
-#foot {
-	position: absolute;
-	bottom: 10px;
 }
 
 a:visited {

@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'Gergő Balogh'
-SITENAME = "Ni'i dictionary"
+AUTHOR = 'Balogh Gergő'
+SITENAME = "A mennydörgés nyelve lexikona (Ni'i verzió)"
 SITEURL = ''
 
 THEME = '.'

@@ -9,18 +9,12 @@
 </head>
 
 <body id="index" class="home">
-        <div id="banner">
-            <h1><a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>
-        </div>
-        <div id="content">
-            {% block content %}
-            {% endblock %}
-        </div>
-        <div id="foot">
-            <address id="about" class="vcard body">
-                Powered by <a href="http://getpelican.com/">Pelican</a>,
-                which takes great advantage of <a href="http://python.org">Python</a>.
-            </address>
-        </div>
+    <div id="banner">
+        <h1><a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>
+    </div>
+    <div id="content">
+        {% block content %}
+        {% endblock %}
+    </div>
 </body>
 </html>
